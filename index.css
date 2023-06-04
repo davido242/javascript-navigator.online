@@ -1,0 +1,26 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: navy;
+    border: 5px solid navy;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+h2 span {
+    font-size: 35px;
+    text-decoration: underline;
+    font-stretch: expanded;
+    letter-spacing: 5px;
+}
