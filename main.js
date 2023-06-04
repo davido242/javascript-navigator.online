@@ -6,3 +6,6 @@
     document.getElementById("offlineStatus").innerHTML = `This web Page is <span>Offline</span> Punk!!`;
     document.getElementById("onlineStatus").style.display = "none";    
   }
+
+  let platformOS = navigator.userAgent;
+  alert("You are using a " + platformOS);
